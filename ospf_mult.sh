@@ -1,4 +1,4 @@
-hostname Router0
+echo "hostname Router0
 --
 router ospf 1
 --
@@ -24,3 +24,4 @@ router ospf 1
  network 192.168.3.0 0.0.0.255 area 2
  network 192.168.20.0 0.0.0.255 area 2
  network 40.0.0.0 0.0.0.255 area 2
+"
